@@ -10,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 150px;
+    margin: 0 200px;
 }
 nav-title {
     color: #181818;
@@ -52,13 +52,13 @@ nav a{
     justify-content: space-between;
 }
 .banner .profile-pic{
-    width: 450px;
+    width: 500px;
 }
-.bannner-greeting{
+.banner-greeting{
     font-size: 45px;
     color: #474747;
 }
-.bannner-title{
+.banner-title{
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
@@ -67,8 +67,8 @@ nav a{
 .banner-description{
     padding: 5px;
 }
-.bannner-content{
-    max-width: 450px;
+.banner-content{
+    max-width: 500px;
 }
 /* about section */
 .about{
@@ -88,4 +88,27 @@ nav a{
     text-align: center;
     font-size: 18px;
 
+}
+/* Main Section Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-weight: normal;
+    font-size: 20px;
+}
+.info-description{
+    font-weight: bold;
+    font-size: 20px;
+}
+.What-i-do-description{
+    padding: 30px 150px;
 }
